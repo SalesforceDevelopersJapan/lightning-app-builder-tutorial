@@ -13,11 +13,12 @@ The Lightning App Builder makes it easy to display report data with the Report C
 
 1. Drag the **Report Chart** component from the **Standard Components** in the left hand side bar and place it below the Recent Items list in the right hand column of the canvas. 
 
-3. In the right side bar look for the attributes to set for this components. Set the following values: 
-- **Label:** Leave this blank. The label of the Report Chart will display by default.
-- **Report:** Opportunity Pipeline Report. 
+3. In the right side bar look for the preoprties to set for this components. Set the following values: 
+  - **Label:** Leave this blank. The label of the Report Chart will display by default.
+  - **Report:** Opportunity Pipeline Report. 
+
 ![](images/addchart.png)
-- *Because we only have one custom report chart currently created, it will default to this report chart. Any report charts that you have access to will be avaiable in the report picklist.*
+*Because we only have one custom report chart currently created, it will default to this report chart. Any report charts that you have access to will be avaiable in the report picklist.*
 
 6. Click **Save** to save your app.  
 ![](images/saveapp.png)
