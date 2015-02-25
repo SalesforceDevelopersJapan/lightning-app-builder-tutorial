@@ -3,7 +3,7 @@ layout: module
 title: Module 7&#58; Test App in Mobile 
 ---
 
-In this module, you test the new, active Lightning App in the mobile environment. This is useful when building mobile apps in Salesforce production and test environments, as it allows you to see the mobile experience that your end users will have. For this example you can either use the Chrome desktop browser on your computer in a mobile view, or you can use the Salesforce1 Mobile app in your smartphone. Instructions will be provided for testing in the Chome Mobile view. 
+In this module, you test your new, active Lightning App in the mobile environment. This is useful when building mobile apps in Salesforce production and test environments, as it allows you to see the mobile experience that your end users will have. For this example you can either use the Chrome desktop browser on your computer in a mobile view, or you can use the Salesforce1 Mobile app in your smartphone. Instructions will be provided for testing in the Chrome Mobile view. 
 
 ## What you will learn
 - How to test salesforce development for mobile users using either the Chrome browser or the Salesforce1 Mobile App. 
