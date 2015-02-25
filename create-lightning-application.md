@@ -20,7 +20,7 @@ Now you are ready to compose an app in the Lightning App Builder using standard 
   - **Object:** Account
   - **Filter:** My Top Accounts
   - **Number of Records to Display:** 7
-  - ![](images/addfilterlist.png)
+![](images/addfilterlist.png)
 
 ## Step 2: Add Recent Opportunities & Leads
 
@@ -29,6 +29,7 @@ Now you are ready to compose an app in the Lightning App Builder using standard 
 2. Note how the right side bar has now updated with the component properties and the title now indicates **Page > Recent Items**. In the right side bar set the following values: 
   - **Label:** Opportunities & Leads
   - **Objects:** Click **Select** and drag `Opportunity` and `Lead` to the *Selected* column on the right then click **Ok**.
+  
 ![](images/opptyleaditems.png)
 ## Step 3: Add My Nearby Contacts list (custom component)
 
