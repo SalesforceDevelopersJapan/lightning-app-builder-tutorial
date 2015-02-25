@@ -18,7 +18,7 @@ Actions are shortcuts that allow Salesforce1 Mobile App users to quickly create 
 ![](images/pageclick.png)
    
 2. At the bottom of the right side bar, under Actions, click **Select...**.
-3. ![](images/action1.png)
+![](images/action1.png)
 
 3. From the **Available** list, drag the **Log a Call**, **New Case**, and **New Lead** and **New Task** quick actions to the **Selected** list. 
 
@@ -26,9 +26,9 @@ Actions are shortcuts that allow Salesforce1 Mobile App users to quickly create 
 
 4. Click **Ok** to add the action to your Lightning Page. 
 
-> The **Actions** property at the bottom of the right hand nav should now show the `LogACall`, `NewCase`,`NewLead` and `NewTask` actions. 
-
 5. At the upper right of App Builder, click **Save**. 
+
+> The **Actions** property at the bottom of the right hand nav should now show the `LogACall`, `NewCase`,`NewLead` and `NewTask` actions. 
 
 ## Step 2: Activate the App
 
