@@ -28,7 +28,7 @@ Now you are ready to compose an app in the Lightning App Builder using standard 
 
 2. Note how the right side bar has now updated with the component properties and the title now indicates **Page > Recent Items**. In the right side bar set the following values: 
   - **Label:** Opportunities & Leads
-  - **Objects:** Click **Select** and drag `Opportunity` and `Lead` to the *Selected* column on the right then click **Ok**.
+  - **Objects:** Click **Select**. Drag `Account` fron the *Selected* column on the right to the *Available* column on the left. Drag `Opportunity` and `Lead` from the *Available* column to the *Selected* column. Then click **Ok**.
   
 ![](images/opptyleaditems.png)
 ## Step 3: Add Contacts Nearby list (custom component)
