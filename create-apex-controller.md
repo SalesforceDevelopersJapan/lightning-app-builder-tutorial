@@ -39,7 +39,7 @@ D. The preview picklist changes the form factor of the canvas so you can get an 
 
 E. Controls for the App Builder. **Save** the current definition of your app. **Activate** adds your app the the Saleforce1 Mobile navigation. **Back To Setup** exits Lightning App Builder and returns you to the list of Lightning Apps. **Help** launches the online help for Lightning App Builder.
 
-F. Attributes for the currently selected item. This can either be for the page itself, in which case the title will indicate **Page**. Otherwise you can set attributes for individual components. In this instance the title will indicate **Page > [SelectedComponent]**. 
+F. Properties for the currently selected item. This can either be for the page itself, in which case the title will indicate **Page**. Otherwise you can set properties for individual components. In this instance the title will indicate **Page > [SelectedComponent]**. 
 
 G. Selected publisher actions for this Page. Only global publisher actions are allowed in a Lightning App Builder App. Actions must be defined before you use them in your app by going to **Setup > Create > Global Actions > Actions**.
 
