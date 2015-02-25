@@ -24,24 +24,8 @@ When we activated our new Lightning App, we defined where it would be placed in 
 1. Click on the icon in the upper left corner of your screen to open the sidebar navigation 
 ![](images/mobile1.png)
 
-
-
-
-
-
-
-
 2. Select the tab named **Field Sales App**
 ![](images/mobile2.png)
-
-
-
-
-
-
-
-
-
 
 Congratulations! In just a few minutes you created a Lightning App in Salesforce, added multiple actions, and tested for mobile users, all without a single line of code!
 
