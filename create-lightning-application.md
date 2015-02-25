@@ -33,7 +33,7 @@ Now you are ready to compose an app in the Lightning App Builder using standard 
 ![](images/opptyleaditems.png)
 ## Step 3: Add Contacts Nearby list (custom component)
 
-1. From the Custom Components list in the left hand side bar, drag the `Contacts Nearby` component onto the canvas under the Account Filter List. In the right side bar set the **Max Distance** value to `50`.
+1. From the Custom Components list in the left hand side bar, drag the **Contacts Nearby** component onto the canvas under the Account Filter List. In the right side bar set the **Max Distance** value to `50`.
 
 2. Click **Save** to save your app. Note that the **Activate** button is now available. 
 
