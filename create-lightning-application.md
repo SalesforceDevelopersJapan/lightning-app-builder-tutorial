@@ -17,18 +17,18 @@ Now you are ready to compose an app in the Lightning App Builder using standard 
 2. Drag the **Filter List** component from the **Standard Components** in the left hand side bar and place it on the left hand column of the canvas. 
 
 3. In the right side bar look for the properties to set for this components. Set the following values: 
-- **Object:** Account
-- **Filter:** My Top Accounts
-- **Number of Records to Display:** 7
-- ![](images/addfilterlist.png)
+  - **Object:** Account
+  - **Filter:** My Top Accounts
+  - **Number of Records to Display:** 7
+  - ![](images/addfilterlist.png)
 
 ## Step 2: Add Recent Opportunities & Leads
 
 1. Drag the **Recent Items** component to the right hand column of the canvas. 
 
 2. Note how the right side bar has now updated with the component properties and the title now indicates **Page > Recent Items**. In the right side bar set the following values: 
-- **Label:** Opportunities & Leads
-- **Objects:** Click **Select** and drag `Opportunity` and `Lead` to the *Selected* column on the right then click **Ok**.
+  - **Label:** Opportunities & Leads
+  - **Objects:** Click **Select** and drag `Opportunity` and `Lead` to the *Selected* column on the right then click **Ok**.
 ![](images/opptyleaditems.png)
 ## Step 3: Add My Nearby Contacts list (custom component)
 
