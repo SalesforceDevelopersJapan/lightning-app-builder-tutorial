@@ -19,9 +19,16 @@ Your screen will now show the Salesforce mobile view.
 
 
 ## Step 2: Navigate to our new Mobile App 
-When we activated our new Lightning App, we defined where it would be placed in the Salesforce1 navigation panel. 
+When we activated our new Lightning App, we defined where it would be placed in the Salesforce1 navigation panel.
+
 1. Click on the icon in the upper left corner of your screen to open the sidebar navigation 
 ![](images/mobile1.png)
+
+
+
+
+
+
 
 
 2. Select the tab named **Field Sales App**
