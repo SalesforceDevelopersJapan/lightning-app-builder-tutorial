@@ -1,51 +1,50 @@
 ---
 layout: module
-title: Module 3&#58; Lightning App Builder Overview
+title: モジュール 3&#58; Lightning アプリケーションビルダー概要
 ---
-This module gives a quick tour of the Lightning App Builder.  
+このモジュールはLightningアプリケーションビルダーのクイックツアーを提供します。
 
-## Step 1: Create your first Lightning Page in Lightning App Builder
+## ステップ 1: 初めてのLightningページをLihgtningアプリケーションビルダーを使って作成
 
-> When creating a new Lightning Page you will be presented with a popup. In this popup you will supply a unique name for your new page and select the type of template to use.  
-> 
+> 新しいLightning Pageを作成しようとするとポップアップが表示されます。このポップアップでページに一意な名称を設定し、どのタイプのテンプレートを使用するかを選択します。
+>
 > ![Create a New Lightning Page](images/newapp.png)
-> 
-> A template defines the basic behavior and layout of the page you plan to create.   
-> 
-> Once you have provided the information in the popup, the Lightning App Builder loads, but your page will not save until you click **Save**. 
+>
+> テンプレートは作成しようとしているページの基本的な挙動及びレイアウトを決定します。
+>
+> ポップアップ画面に情報を入力が完了すると、Lightningアプリケーションビルダーがロードされいますが、**保存**が押されるまではこのページは保存されません。
 
-1. In the **Setup** menu, select ** Build > Lightning App Builder**
+1. **設定** メニューから** 開発 > Lightningアプリケーションビルダー**を選択
 
-2. Click **New** under **Lightning Pages** to start Lightning App Builder
+2. **Lightning Pages**にある**新規**ボタンをクリックし、Lightningアプリケーションビルダーを開始します。
 
-3. In the *Create a New Lightning Page* pop-up, set the following values and click **Create**:
+3. *Lightning ページを新規作成* ポップアップに以下の値を入力して、**作成**をクリックします:
+ - **表示ラベル:** フィールドセールスアプリケーション
+ - **テンプレート:** 反応型2列
 
-- **Label:** Field Sales App
-- **Template:** Responsive Two Column
-
-## Step 2: Tour the Lightning App Builder
+## ステップ 2: Lightningアプリケーションビルダーツアー
 
 ![Lightning App Builder](images/lab_194_layout.png)
 
-You are now in the Lightning App Builder tool which is comprised of the following features:
+Lightningアプリケーションビルダーには以下のような機能が用意されています:
 
-A. The canvas is the area where you build your Lightning Page. Pages are assembled by dragging components from the left side bar (see _B_ and _C_) onto the canvas in the center. Editable sections are determined by the template chosen. These sections marked by boxes that initially are labeled _Add Component(s) Here_. Each box can have many components added to it. 
+A. 画面全体がLightningページを開発するためのエリアとなります。ページでは左側のサイドバーにあるコンポーネントを、中央のキャンバスへドラッグ&ドロップが可能となっています(_B_ 及び _C_を参照) 。右側の編集領域には選択されたテンプレートに対応した設定項目が表示されます。まずは中央に _ここにコンポーネントを追加_　とラベルのついたボックスが表示され、それぞれのボックスごとに複数のコンポーネントを追加することができます。
 
-B. Standard Lightning components provided by Salesforce with Lightning App Builder.
+B. 標準コンポーネントはSalesforceがLightningアプリケーションビルダーに対して提供するものです。
 
-C. Custom Lightning components. These will either be built by programmers in your org, deployed using the metadata API, or installed from AppExchange packages. 
+C. カスタムコンポーネントはあなたの組織のエンジニアが開発してデプロイしたものか、AppExchangeパッケージでインストールされたものが表示されます。
 
-D. The preview picklist changes the form factor of the canvas so you can get an idea of how your page will display on different devices. Currently you can toggle between *Phone* and *Tablet*. Each template behaves differently when preview mode changes. 
+D. 画面上のホームファクター(デバイス)の選択リストを変更すると、別のデバイスで閲覧した場合の表示を確認することができます。 現在は *電話* と *タブレット* の切り替えが可能です。それぞれのテンプレートはプレビューモードが変更されると違った動作をします。
 
-E. Controls for the App Builder. **Save** the current definition of your app. **Activate** adds your app the the Saleforce1 Mobile navigation. **Back To Setup** exits Lightning App Builder and returns you to the list of Lightning Apps. **Help** launches the online help for Lightning App Builder.
+E. アプリケーションビルダーには各種ボタン及びリンクが用意されています。 **保存** ボタンは現在のアプリケーションを保存します。**有効化** ボタンは、アプリケーションをSaleforce1モバイルナビゲーションへ追加します。 **設定に戻る** はLightningアプリケーションビルダーを終了し、Lightningアプリケーションのリストページへ戻ります。 **ヘルプ** ボタンはLightningアプリケーションビルダーに関連するオンラインヘルプを起動します。
 
-F. Properties for the currently selected item. This can either be for the page itself, in which case the title will indicate **Page**. Otherwise you can set properties for individual components. In this instance the title will indicate **Page > [SelectedComponent]**. 
+F. 右側の現在選択中のアイテムプロパティペインには、ページ自身のプロパティも表示されます。その場合はタイトルが**ページ**とっています。それ以外に場合は、それぞれのコンポーネントに対してプロパティを設定するための画面が表示されます。その場合にはタイトルには **ページ > [選択されたコンポーネント]**　と表示されています。
 
-G. Selected publisher actions for this Page. Only global publisher actions are allowed in a Lightning App Builder App. Actions must be defined before you use them in your app by going to **Setup > Create > Global Actions > Actions**.
+G. このページで利用可能なパブリッシャーアクションを選択することも可能です。	グローバルパブリッシャーアクションのみがLightningアプリケーションビルダーで作成されるアプリケーションで利用することが可能です。アクションをアプリケーションで使うには、事前に **設定 > 作成 > グローバルアプション > アクション** において定義されている必要があります。
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="setup-environment.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="create-lightning-application.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="setup-environment.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="create-lightning-application.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
