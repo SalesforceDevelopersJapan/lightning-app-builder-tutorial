@@ -1,42 +1,41 @@
 ---
 layout: home
-title: Lightning App Builder Tutorial 
+title: Lightningアプリケーションビルダーチュートリアル
 ---
-In this tutorial you will use Salesforce Lightning App Builder to create a custom application using components built with the Lightning Component Framework. This sample Field Sales app will give users the ability to quickly view their most important sales information in the Salesforce1 Mobile Application. This sample app includes both standard and custom components. To learn more about custom components, see the <a href="http://developerforce.github.io/lightning-components-tutorial/" target="_blank">Lightning Components Tutorial</a>.
+このチュートリアルではSalesforce Lightningアプリケーションビルダーを使って、Lightningコンポーネントフレームワークで使った部品を組み立ててアプリケーションを作成する方法を学びます。サンプルのフィールドセールスアプリケーションはユーザが最も重要な営業情報をSalesforce1モバイルアプリケーションの中で表示できるようにしています。またこのサンプルには標準及びカスタムのコンポーネントが含まれています。カスタムコンポーネントについてより詳しく知りたい場合は <a href="http://developerforce.github.io/lightning-components-tutorial/" target="_blank">Lightningコンポーネントチュートリアル</a>をご覧下さい。
 
-## What You Will Learn
+## 何を学ぶことができるか
 
-- Use the Lightning App Builder
-- Work with Lightning Components and Actions in Lightning App Builder
-- Include your app in the Salesforce1 Mobile Application
+- Lightningアプリケーションビルダーの使い方
+- Lightningコンポーネント及びアクションのLightningアプリケーションビルダー内での利用方法
+- アプリケーションをSalesforce1モバイルアプリケーションに追加する方法
 
-## Prerequisites
+## 前提条件
 
-- To complete this workshop, all you need is a modern browser and a connection to the Internet
-- A working knowledge of Salesforce administration is assumed
-- No prior knowledge of Salesforce Lightning Components is required
+- このワークショップを行うためには、最新のブラウザ及びインターネットへの接続が必要となります。
+- Salesforce管理者の知識を持っていることを前提としています。
+- Salesforce Lightningコンポーネントの予備知識は必要ありません
 
 
-## Browser Requirements
+## 推奨ブラウザ
 
-The following browsers are supported when working with Salesforce:
+以下のブラウザがSalesforceの動作でサポートされています:
 
-- Most recent version of Google Chrome
-- Most recent version of Mozilla Firefox
-- Most recent version of Safari
-- Internet Explorer 11 or higher
-- Additional browser support detailed <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=getstart_browser_overview.htm" target="_blank">here</a>
+- 最新バージョンのGoogle Chrome
+- 最新バージョンのMozilla Firefox
+- 最新バージョンのSafari
+- Internet Explorer 11 以降
+- それ以外のブラウザのサポートに関しては <a href="https://help.salesforce.com/apex/HTViewHelpDoc?id=getstart_browser_overview.htm" target="_blank">こちら</a> をご覧ください
 
-## Issues
+## 問題をみつけたら？
 
-- Please create an issue <a href="https://github.com/developerforce/lightning-app-builder-tutorial/issues" target="_blank">here</a> if you run
-into any problem or if you have a suggestion to improve this workshop.
-- You can also use the Comments section at the bottom of each module to ask a question or report a problem.
+-実際に動作をさせる過程で問題が発生した場合にはぜひIssue <a href="https://github.com/developerforce/lightning-app-builder-tutorial/issues" target="_blank">here</a>を作成してこのチュートリアルの品質改善にご協力下さい。
+- または下にあるコメントセクションにて、質問や問題の報告を行うことも可能です。
 
 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-developer-edition.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="create-developer-edition.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
