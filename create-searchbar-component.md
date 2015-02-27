@@ -1,59 +1,59 @@
 ---
 layout: module
-title: Module 6&#58; Add Actions and Activate 
+title: モジュール 6&#58; アクションの追加と有効化
 ---
 
-In this module, you will put the final touches on your Sales Health app by give the Sales Reps a quick way to Log a Call, Create a new Case, Add a new Lead, and set a Task while in your app. Then, you will activate your app and add it to the Salesforce1 Mobile App navigation.
+このモジュールでは、Salesforce1モバイルアプリのナビゲーションからアクセスし、営業担当者が活動の記録やケースの作成、Leadの新規追加、タスクの設定などを簡単に行えるようにアプリケーションにアクションを追加し、アプリケーションを有効化します。
 
-## What you will learn
+## 何を学ぶことができるか
 
-- How to add Global Actions to a Lightning Page
-- How to add a Lightning Page to the Salesforce1 Mobile App
+- Lightningページにグローバルアクションを追加する方法
+- LightningページをSalesforce1モバイルアプリに追加する
 
-## Step 1: Add Actions
+## ステップ 1: アクションの追加
 
-Actions are shortcuts that allow Salesforce1 Mobile App users to quickly create and modify records. In order for users to create common sales records, we will add a few standard actions. 
+アクションにはSalesforce1モバイルアプリ上でユーザが簡単にデータを作成したり編集するためのショートカットが用意されています。ユーザが一般的な営業活動をする際に有効な、標準で用意されているいくつかのアクションを利用します。
 
-1. In the right hand side bar, click on the word **Page**. This will make the app properties available for configuration. 
+1. 右側のサイイドバーにある **ページ** をクリックします。. アプリケーションの設定可能なプロパティが表示されます。
 ![](images/pageclick.png)
-   
-2. At the bottom of the right side bar, under Actions, click **Select...**.
+
+2. 右側サイドバーの下部のアクションにある、 **選択...** をクリックします。
 ![](images/action1.png)
 
-3. From the **Available** list, drag the **Log a Call**, **New Case**, and **New Lead** and **New Task** quick actions to the **Selected** list. 
+3. **利用可** リストより、 **活動の記録**, **新規ケース**、 **新規リード** 、**新規ToDo** のクイックアクションを**洗濯済み** リストへ移動します。
 
-    ![Select New Expense](images/actions2.png)
+    ![Select New Actions](images/actions2.png)
 
-4. Click **Ok** to add the action to your Lightning Page. 
+4. **Ok** をクリックし、アクションをLightningページに追加します。
 
-5. At the upper right of App Builder, click **Save**. 
+5. アプリケーションビルダーの右上にある**保存**ボタンをクリックします。
 
-> The **Actions** property at the bottom of the right hand nav should now show the `LogACall`, `NewCase`,`NewLead` and `NewTask` actions. 
+> 右側サイドバー最下部にある **アクション** プロパティ には`LogACall`, `NewCase`,`NewLead` , `NewTask` のアクションが表示さているはずです。
 
-## Step 2: Activate the App
+## ステップ 2: アプリケーションの有効化
 
->The **Activate** feature allows the application builder to enable the app in the user interface without leaving Lightning App Builder. It bundles the standard Salesforce tab feature normally found at _Setup > Create > Tabs > Lightning Page Tabs_ and automatically adds the tabs to the Salesforce1 Mobile navigation configuration normally found in _Setup > Mobile Administration > Mobile Navigation_. 
+> **有効化** 機能はアプリケーションビルダーから離れることなくLightningページをアプリケーションに組み込むための機能です。この機能を利用すると、通常はSalesforceタブの設定方法である _設定 > 作成 > タブ > Lightning Page タブ_ に自動的にタブが追加され、モバイルナビゲーションの設定方法である _設定 > モバイル管理 > モバイルナビゲーション_ にも設定がおこなわれます。
 
-1. Click **Activate** to add it to the Salesforce1 Mobile Navigation. 
+1. **有効化** をクリックし、Salesforce1モバイルナビゲーションへ追加します。
 
-2. Set **Tab Label** to `Field Sales`.
+2. **タブの表示ラベル** には`フィールドセールス`を入力します。
 
-3. Next to the **Tab Icon** click **Change...**.
+3. 次に **タブアイコン** の **変更...**をクリックします。
 
-4. Select any icon you prefer. This will close the Tab Icon window and change the icon displayed in the Activate window. 
+4. 好きなアイコン選択します。 アイコンを選択してウィンドウを閉じると、現在のウィンドウにもアイコンの変更が反映されます。
 
-5. In the Salesforce1 Navigation Position Pane on the right, drag the **Field Sales** Salesforce1 Navigation Position to just below the **Today** tab. 
+5. 右側のSalesforce1ナビゲーション位置パネルで、 **フィールドセールス** のSalesforce1ナビゲーション上の位置を設定します。ここでは **Today** タブの下に移動します。
 
    ![Nav Items List](images/navposition.png)
 
-6. Click **Activate**.
+6. **有効化**をクリックします。
 
-Your app is ready for testing.
+これでアプリケーションはテスト可能になりました。
 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-contactlist-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="create-contactdetails-component.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="create-contactlist-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="create-contactdetails-component.html" class="btn btn-default pull-right">進む <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

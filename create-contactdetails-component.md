@@ -1,34 +1,34 @@
 ---
 layout: module
-title: Module 7&#58; Test App in Mobile 
+title: Module 7&#58; モバイルでアプリをテストする
 ---
 
-In this module, you test your new, active Lightning App in the mobile environment. This is useful when building mobile apps in Salesforce production and test environments, as it allows you to see the mobile experience that your end users will have. For this example you can either use the Chrome desktop browser on your computer in a mobile view, or you can use the Salesforce1 Mobile app in your smartphone. Instructions will be provided for testing in the Chrome Mobile view. 
+このモジュールでは、有効化したLightningアプリケーションをモバイル環境でテストを行います。これはSalesforceの本番環境やテスト環境で、エンドユーザに開発したモバイルアプリケーションがどのように見えるかを確認する際に有用な方法です。基本的にはChromeのデスクトップ版ブラウザのモバイルビューもしくはスマートフォーン内のSalesforce1モバイルアプリを利用しますが、今回はChromeのモバイルビューでテストする方法を説明します。
 
-## What you will learn
-- How to test salesforce development for mobile users using either the Chrome browser or the Salesforce1 Mobile App. 
-
-
-## Step 1: Switch to Chrome Mobile View
-
-1. If you are not already, login to your salesforce environment in the Chrome browser. Take a look at the URL address in the browser. 
-2. Add /one/one.app to the end of your URL of the domain your Salesforce instance is on. If your Developer Edition is located on na15, meaning when you log in you URL looks something like https://na15.salesforce.com/home/home.jsp. To navigate to the Salesforce1 mobile app view, change the /home/home.jsp to /one/one.app. 
-Your screen will now show the Salesforce mobile view. 
-
-3. You can resize your browser window now to a smaller size, more similar to a mobile screen. 
+## 何を学ぶことができるか
+- Salesforceの開発において、ChromeブラウザやSalesforce1アプリを利用してどのようにモバイルのテストを行うか。
 
 
-## Step 2: Navigate to our new Mobile App 
-When we activated our new Lightning App, we defined where it would be placed in the Salesforce1 navigation panel.
+## ステップ 1: Chromeモバイルビューへスイッチする
 
-1. Click on the icon in the upper left corner of your screen to open the sidebar navigation 
+1. もしSalesforce環境にログインしていなければ、Choromeブラウザでログインを行います。ブラウザのURLアドレスバーに入力を行います。
+2. /one/one.app を現在のSalesforceインスタンスのURLドメインの後ろに追加します。例えばDeveloper Editionがna15にある場合、ログインした際のURLは https://na15.salesforce.com/home/home.jsp　のようになっています。 Salesforce1モバイルアプリの画面を表示するには /home/home.jsp を /one/one.app に変更します。
+これでSalesforce1モバイルの画面が表示されます。
+
+3. ブラウザウィンドをリサイズして、モバイルのスクリーンに近いサイズに変更します。
+
+
+## ステップ 2: 作成したモバイルアプリケーションを表示する
+Lightningアプリケーションを有効化する際、Salesforce1ナビゲーションパネルにレイアウトを行いました。
+
+1. サイドバーナビゲーションを開くには画面に左上隅にあるアイコンをクリックします
 ![](images/mobile1.png)
 
-2. Select the tab named **Field Sales App**
+2. **フィールドセールスアプリケーション**をクリックします
 
 ![](images/mobile2.png)
 
-Congratulations! In just a few minutes you created a Lightning App in Salesforce, added multiple actions, and tested for mobile users, all without a single line of code!
+おめでとうございます。これでたった数分で、一行もコードを書くことなくLightningアプリケーションをSalesforce上に作成し、複数のアクションを追加し、モバイルでテストを行うことができました。
 
 
 
@@ -36,7 +36,7 @@ Congratulations! In just a few minutes you created a Lightning App in Salesforce
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-searchbar-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="next.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="create-searchbar-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="next.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

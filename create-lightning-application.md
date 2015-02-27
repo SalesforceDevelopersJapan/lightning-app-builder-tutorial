@@ -1,46 +1,45 @@
 ---
 layout: module
-title: Module 4&#58; Add Lists to your app
+title: モジュール 4&#58; リストをアプリケーションに追すする
 ---
+Lightningアプリケーションビルダーで標準及びカスタムコンポーネントを利用する準備が整いました。このモジュールでは、幾つかのリストをアプリケーションへ追加していきます。
 
-Now you are ready to compose an app in the Lightning App Builder using standard and custom components. In this module you will start by adding a few lists to your Sales Health app.
+## 何を学ぶことができるか
+- 条件リストコンポーネントをLightningアプリケーションへ追加する方法
+- 最近使ったデータコンポーネントをLightningアプリケーションへ追加する方法
+- カスタムコンポーネントをLightningアプリケーションへ追加する方法
 
-## What you will learn
-- How to add a Filter List component to a Lightning App 
-- How to add a Recent Items component to a Lightning App 
-- How to add a custom component to a Lightning App 
+## ステップ 1: 私の重要取引先の条件リストを追加する
 
-## Step 1: Add Filter List for My Top Accounts
-
-1. Switch the preview picklist from **Phone** to **Tablet**. This will change the layout of the canvas from the standard single column to the the two column preview.
+1. プレビューの選択リストを **電話** から **タブレット**へ変更します。. この変更によってキャンバスのレイアウトプレビューは標準的な1列表示から2列表示へ変更されます。
 ![](images/tabletpreview.png)
-2. Drag the **Filter List** component from the **Standard Components** in the left hand side bar and place it on the left hand column of the canvas. 
+2. 左側のサイドバーより **標準コンポーネント** にある **条件リスト** コンポーネントを左側カラムへDrug & Dropします。
 
-3. In the right side bar look for the properties to set for this components. Set the following values: 
-  - **Object:** Account
-  - **Filter:** My Top Accounts
-  - **Number of Records to Display:** 7
+3. 右側サイドバーでこのコンポーネントのプロパティを設定します。以下の値を入力します:
+  - **オブジェクト:** 取引先
+  - **検索条件:** 私のトップアカウント
+  - **表示するレコード数:** 7
 ![](images/addfilterlist.png)
 
-## Step 2: Add Recent Opportunities & Leads
+## ステップ 2: 最近使った商談やリードを追加する
 
-1. Drag the **Recent Items** component to the right hand column of the canvas. 
+1. **最近使ったデータ** コンポーネントをキャンバスの右側のカラムへ追加します。
 
-2. Note how the right side bar has now updated with the component properties and the title now indicates **Page > Recent Items**. In the right side bar set the following values: 
-  - **Label:** Opportunities & Leads
-  - **Objects:** Click **Select**. Drag `Account` fron the *Selected* column on the right to the *Available* column on the left. Drag `Opportunity` and `Lead` from the *Available* column to the *Selected* column. Then click **Ok**.
-  
+2. 右側のサイドバーにはコンポーネントのプロパティが現れ、**ページ > 最近使ったデータ** と表示されています。右側サイドバーに以下の値を入力します:
+  - **表示ラベル:** 商談 & リード
+  - **オブジェクト:** **選択...** をクリックし`取引先` を *選択済み* の右側のリストから、 *利用化* の左側のリストへ移動します。`商談` 及び `リード` を　*利用可* の列から *選択済み* 列へドラッグし、 **Ok**　をクリックします。
+
 ![](images/opptyleaditems.png)
-## Step 3: Add Contacts Nearby list (custom component)
+## ステップ 3: 近くの取引先責任者リスト(カスタムコンポーネント)を追加する
 
-1. From the Custom Components list in the left hand side bar, drag the **Contacts Nearby** component onto the canvas under the Account Filter List. In the right side bar set the **Max Distance** value to `50`.
+1. 左側のサイドバーのカスタムコンポーネントのリストから,**近くの取引先責任者** コンポーネントをキャンバスの取引先条件リストの下にドラッグします。右側のサイドバーの**最大距離** には `50` をセットします。
 
-2. Click **Save** to save your app. Note that the **Activate** button is now available. 
+2. **保存**をクリックしてアプリを保存します。その後**有効化** ボタンが利用可能になります。
 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-apex-controller.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="create-contactlist-component.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="create-apex-controller.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="create-contactlist-component.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>

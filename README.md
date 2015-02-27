@@ -1,1 +1,1 @@
-# lightning-app-builder-tutorial
+# lightningアプリケーションビルダーチュートリアル

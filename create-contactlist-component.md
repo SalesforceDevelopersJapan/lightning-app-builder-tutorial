@@ -1,32 +1,32 @@
 ---
 layout: module
-title: Module 5&#58; Add a Report Chart
+title: モジュール 5&#58; レポートグラフの追加
 ---
-The Lightning App Builder makes it easy to display report data with the Report Chart standard component. In this module, you will display the Opportunity Pipeline report chart in your Sales Health app so that your Sales Reps always have that data from any custom report chart just one tap away.
+Lightningアプリケーションビルダーはレポートのデータをレポートグラフ標準コンポーネントによって簡単に表示することが可能です。このモジュールでは、商談売上予測レポートチャートをアプリケーションの中に表示します。これにより営業担当はたった1タップで常にあらゆるカスタムレポートのデータを確認することができます。
 
 
-## What you will learn
-- How to display a Salesforce Report Chart in a Lightning Page
+## 何を学ぶことができるか
+- どのようにLightningページ上にSalesforceレポートグラフを表示するか
 
 
-## Step 1:
+## ステップ 1:
 
-1. Drag the **Report Chart** component from the **Standard Components** in the left hand side bar and place it below the Recent Items list in the right hand column of the canvas. 
+1. 左側のサイドバーより**標準コンポーネント** の **レポートグラフ** コンポーネントを中央キャンバスの右側にある最近使ったリストの下にドラッグ & ドロップします。
 
-3. In the right side bar look for the preoprties to set for this components. Set the following values: 
-  - **Label:** Leave this blank. The label of the Report Chart will display by default.
-  - **Report:** Opportunity Pipeline Report. 
+3. 右側にあるサイドバーのプロパティにこのコンポーネントの設定を行います。以下の値を入力します:
+  - **表示ラベル:** 空白のまま。レポートグラフの表示ラベルは空白がデフォルトです。
+  - **レポート:** 商談パイプラインレポート
 
 ![](images/addchart.png)
-*Because we only have one custom report chart currently created, it will default to this report chart. Any report charts that you have access to will be avaiable in the report picklist.*
+*直近作成したカスタムレポートが１つのみのため、デフォルトでレポートが選択されています。本来はすべてのアクセス可能なレポートグラフがこの選択リストに表示されます。*
 
-6. Click **Save** to save your app.  
+6. **保存** をクリックしてアプリケーションを保存します。
 ![](images/saveapp.png)
 
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
-<a href="create-lightning-application.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> Previous</a>
-<a href="create-searchbar-component.html" class="btn btn-default pull-right">Next <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="create-lightning-application.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
+<a href="create-searchbar-component.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
