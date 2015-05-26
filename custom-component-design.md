@@ -45,10 +45,10 @@ title: モジュール 9&#58; カスタムコンポーネントのプロパテ�
     ```
     <design:component>
         <design:attribute name="subject" label="題名" description="ページに表示されるタイトルを入力します" />
-        <design:attribute name="color" type="picklist" label="色" datasource="red,blue,black,yellow" />
+        <design:attribute name="color" label="色"  />
         <design:attribute name="bold" label="太字"  />
         <design:attribute name="size" label="大きさ"/>
-    	<design:attribute name="comments" label="表示コメント" type="String[]" datasource="晴天なり,私は,今日も,元気です,これからの時代は,Lightningは,便利です,次世代の"/>
+        <design:attribute name="comments" label="表示コメント"/>
     </design:component>
     ```
 
