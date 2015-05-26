@@ -33,6 +33,6 @@ Lightningアプリケーションを有効化する際、Salesforce1ナビゲー
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
 <a href="create-searchbar-component.html" class="btn btn-default"><i class="glyphicon glyphicon-chevron-left"></i> 戻る</a>
-<a href="show-custom.component.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
+<a href="show-custom-component.html" class="btn btn-default pull-right">次へ <i class="glyphicon glyphicon-chevron-right"></i></a>
 </div>
 </div>
