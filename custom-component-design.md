@@ -84,7 +84,7 @@ title: モジュール 9&#58; カスタムコンポーネントのプロパテ�
 
 1. アプリケーションビルダーより、AppPropertiesSampleのアイコンの変化と、ドラッグ & ドロップすると、右ペインよりプロパティを編集できることを確認します。
 
-![Lightning Component Design](images/component-design-svg.png)
+![Lightning Component Design](images/custom-design-svg.png)
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">
