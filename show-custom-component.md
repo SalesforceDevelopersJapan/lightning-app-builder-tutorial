@@ -56,8 +56,7 @@ title: モジュール 8&#58; カスタムコンポーネントの表示
 ## ステップ 2: カスタムLightningコンポーネントをアプリケーションビルダーから利用
 
 1.  アプリケーションビルダーより、SearchBarコンポーネント及びContactListコンポーネントがドラッグ & ドロップできるようにになっていることを確認します。
-
-![Lightning App Builder with Custom Component](images/custom-drug-component.png)
+ ![Lightning App Builder with Custom Component](images/custom-drug-component.png)
 
 <div class="row" style="margin-top:40px;">
 <div class="col-sm-12">

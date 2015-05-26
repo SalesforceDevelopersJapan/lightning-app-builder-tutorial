@@ -38,7 +38,7 @@ title: モジュール 9&#58; カスタムコンポーネントのプロパテ�
 
 1. **Design** をクリックします。
 
-    ![](images/component-controller.jpg)
+    ![](images/component-design.png)
 
 1. デザインを以下の様に実装します:
 
@@ -63,7 +63,7 @@ title: モジュール 9&#58; カスタムコンポーネントのプロパテ�
 
 1. **SVG** をクリックします。
 
-    ![](images/component-controller.jpg)
+    ![](images/component-svg.png)
 
 1. SVGを以下の様に実装します:
 
